@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: auto;
+        }
+        
+        .wrapper {
+            width: 1000px;
+            height: 200px;
+            background-color: aqua;
+        }
+        
+        .nav {
+            height: 50px;
+            width: 1000px;
+        }
+        
+        .menu {
+            height: 50px;
+            width: 1000px;
+            background-color: aquamarine;
+        }
+        
+        .menu li {
+            float: left;
+            width: 200px;
+            height: 50px;
+            line-height: 50px;
+            list-style-type: none;
+            text-indent: 20px;
+        }
+        
+        .menu li a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: large;
+        }
+        
+        .menu li:hover {
+            background-color: blueviolet;
+        }
+        
+        li:hover>a {
+            color: red;
+        }
+        
+        .menu li .supmenu {
+            display: none;
+        }
+        
+        .menu li:hover>.supmenu {
+            display: block;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="">Chuyên mục</a>
+                    <ul class="supmenu">
+                        <li>
+                            <a href="">Thời sự</a>
+                        </li>
+                        <li>
+                            <a href="">Thời tiết</a>
+                        </li>
+                        <li>
+                            <a href="">Thế giới</a>
+                        </li>
+                        <li>
+                            <a href="">HOT</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Tiện ích</a>
+                </li>
+                <li>
+                    <a href="">Dành cho bạn</a>
+                </li>
+                <li>
+                    <a href="">Tìm kiếm</a></li>
+                <li>
+                    <a href="">Liên hệ</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
