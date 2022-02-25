@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+.wrapper {
+    height: 800px;
+    width: 1089px;
+}
+
+header {
+    border: 1px solid;
+    height: 50px;
+    width: 1080px;
+    background-color: rgb(150, 112, 31);
+}
+
+.menu {
+    border: 1px solid;
+    height: 50px;
+    width: 1080px;
+    background-color: rgb(150, 112, 31);
+}
+
+.content {
+    height: 300px;
+    width: 1089px;
+}
+
+nav {
+    border: 1px solid;
+    height: 300px;
+    width: 25%;
+    background-color: rgb(150, 112, 31);
+    float: left;
+    margin-left: 4px;
+}
+
+.center {
+    border: 1px solid;
+    height: 300px;
+    width: 50%;
+    background-color: rgb(150, 112, 31);
+    float: left;
+}
+
+section {
+    border: 1px solid;
+    height: 300px;
+    width: 24%;
+    background-color: rgb(150, 112, 31);
+    float: left;
+}
+
+footer {
+    border: 1px solid;
+    height: 50px;
+    width: 1080px;
+    background-color: rgb(150, 112, 31);
+}

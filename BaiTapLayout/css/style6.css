@@ -1,0 +1,66 @@
+    * {
+        padding: 0;
+        margin: auto;
+    }
+    
+    .wrapper {
+        height: 800px;
+        width: 1089px;
+    }
+    
+    header {
+        border: 1px solid;
+        height: 50px;
+        width: 1089px;
+        background-color: rgb(150, 112, 31);
+    }
+    
+    nav {
+        border: 1px solid;
+        height: 30px;
+        width: 1089px;
+        background-color: rgb(150, 112, 31);
+    }
+    
+    .giua {
+        height: 400px;
+        width: 1089px;
+        background-color: blueviolet;
+    }
+    
+    section {
+        border: 1px solid;
+        height: 400px;
+        width: 70%;
+        background-color: rgb(150, 112, 31);
+        float: left;
+    }
+    
+    aside {
+        border: 1px solid;
+        height: 400px;
+        width: 29.6%;
+        background-color: rgb(150, 112, 31);
+        float: left;
+    }
+    
+    .artciletren {
+        border: 1px solid;
+        height: 170px;
+        width: 95%;
+        background-color: rgb(74, 101, 173);
+    }
+    
+    .artcileduoi {
+        border: 1px solid;
+        height: 170px;
+        width: 95%;
+        background-color: rgb(189, 43, 152);
+    }
+    
+    footer {
+        border: 1px solid;
+        height: 50px;
+        width: 1089px;
+        background-color: rgb(150, 112, 31);
+    }

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+.wrapper {
+    height: 800px;
+    width: 1089px;
+}
+
+header {
+    border: 1px solid;
+    height: 50px;
+    width: 1089px;
+    background-color: rgb(150, 112, 31);
+}
+
+nav {
+    border: 1px solid;
+    height: 30px;
+    width: 1089px;
+    background-color: rgb(150, 112, 31);
+}
+
+section {
+    border: 1px solid;
+    height: 300px;
+    width: 1089px;
+    background-color: rgb(150, 112, 31);
+}
+
+.artcile {
+    border: 1px solid;
+    height: 275px;
+    width: 95%;
+    background-color: #fff;
+}
+
+footer {
+    border: 1px solid;
+    height: 50px;
+    width: 1089px;
+    background-color: rgb(150, 112, 31);
+}

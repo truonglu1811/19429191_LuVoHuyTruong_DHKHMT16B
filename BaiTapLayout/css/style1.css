@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+header {
+    border: 1px solid;
+    height: 50px;
+    width: 1000px;
+    background-color: rgb(150, 112, 31);
+}
+
+section {
+    border: 1px solid;
+    height: 300px;
+    width: 1000px;
+    background-color: rgb(150, 112, 31);
+}
+
+footer {
+    border: 1px solid;
+    height: 50px;
+    width: 1000px;
+    background-color: rgb(150, 112, 31);
+}
