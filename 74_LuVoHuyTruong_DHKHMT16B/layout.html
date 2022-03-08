@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: auto;
+        }
+        body{
+            background-image: url(./img/17-4.jpg);
+        }
+        .wrapper{
+            height: auto;
+            width: 1089px;
+            background-color: aqua;
+
+        }
+        .clear{
+            clear: both;
+        }
+        nav{
+            height: 50px;
+            width:  1089px;
+            background-color: beige;
+            line-height: 50px;
+        }
+        header{
+            height: 150px;
+            width:  1089px;
+            background-color: blanchedalmond;
+            background-image: url(./img/banner.jfif);
+
+
+        }
+
+        .content{
+            height: 400px;
+            width: 100%;
+            background-color: cadetblue;
+        }
+        aside{
+            height: 400px;
+            width: 40%;
+            background-color: cornflowerblue;
+            float: left;
+        }
+        section{
+            height: 400px;
+            width: 60%;
+            background-color:lemonchiffon;
+            float: left;
+        }
+        .menu li{
+            float: left;
+            height: 100%;
+            width: 150px;
+            list-style: none;
+            text-indent: 16px;
+            
+        }
+        .menu li:hover{
+            background-color: coral;
+        }
+        .menu li:hover a{
+            color: goldenrod;
+        }
+        .menu li a{
+            text-decoration: none;
+            font-size: 20px;
+            color:dodgerblue;
+        }
+        .menu li .submenu{
+            
+            display: none;
+        }
+        .menu li:hover  .submenu{
+            display: block;
+        }
+        section input{
+            margin: 15px;
+        }
+        footer{
+            height: 100px;
+            width: 100%;
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a>
+                        <ul class="submenu">
+                            <li><a href="#"></a>Phone</li>
+                            <li><a href="#"></a>Email</li>
+                            <li><a href="#"></a>Fax</li>
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Join</a></li>
+                </ul>
+                <span>
+                    <form action="dangky.php" method="post">
+                        <label for="email">Email:</label>
+                        <input type="email" name="textEmail" placeholder="nhap email:">
+                        <input type="submit" value="Gửi">
+                    </form>
+                </span>
+            </div>
+        </nav>
+        <header></header>
+        <div class="clear"></div>
+        <div class="content">
+            <aside>
+                <article>
+                    <h1>Hoạt động 1</h1>
+                </article>
+                <article>
+                    <h1>Hoạt động 2</h1>
+                </article>
+                <article>
+                    <h1>Hoạt động 3</h1>
+                </article>
+            </aside>
+            <section>
+                <h1 style="text-align: center;">Đăng kí tài khoản</h1>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>Thông tin cá nhân</legend>
+                        <label for="">Họ và tên:</label>
+                        <input type="text" placeholder="Nhập vào đây" required><br>
+                        <label for="">Email:</label>
+                        <input type="email" placeholder="Nhập vào đây" required><br>
+                        <label for="">SĐT:</label>
+                        <input type="text" placeholder="Nhập vào đây" required><br>
+                        <label for="">Tài khoản:</label>
+                        <input type="text" placeholder="Nhập vào đây" required><br>
+                        <label for="">Mật khẩu:</label>
+                        <input type="password" placeholder="Nhập vào đây" required><br>
+                        <input type="submit">
+                        
+
+                    </fieldset>
+
+                </form>
+            </section>
+        </div>
+        <div class="clear"></div>
+        <footer></footer>
+    </div>
+</body>
+</html>
